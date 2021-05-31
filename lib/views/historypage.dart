@@ -7,7 +7,7 @@ class HistoryPage extends StatelessWidget {
   final DateFormat _dateFormat = DateFormat("dd-MM-yyyy");
 
   final String _query = """
-  query launchHistory {
+  query launchPast {
       launchesPast(limit: 50) {
         mission_name 
         launch_date_utc
